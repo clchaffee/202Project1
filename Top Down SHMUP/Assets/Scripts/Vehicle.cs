@@ -43,19 +43,19 @@ public class Vehicle : MonoBehaviour
 
         if(viewportPos.x > 1)
         {
-            vehiclePosition.x -= .01f;
+            vehiclePosition.x -= .05f;
         }
         if (viewportPos.x < 0)
         {
-            vehiclePosition.x += .01f;
+            vehiclePosition.x += .05f;
         }
         if (viewportPos.y > 1)
         {
-            vehiclePosition.y -= .01f;
+            vehiclePosition.y -= .05f;
         }
         if (viewportPos.y < 0)
         {
-            vehiclePosition.y +=.01f;
+            vehiclePosition.y +=.05f;
         }
 
         transform.position = vehiclePosition;
